@@ -1,0 +1,17 @@
+// colors
+$red: red;
+$blue: blue;
+$black: black;
+$white: white;
+
+// bg-colors
+$bg-red: red;
+$bg-blue: blue;
+$bg-black: black;
+$bg-white: white;
+
+// gradients
+$gradient-red: linear-gradient(45deg, red, darken(red, 10%));
+$gradient-blue: linear-gradient(45deg, blue, darken(blue, 10%));
+$gradient-black: linear-gradient(45deg, black, lighten(black, 10%));
+$gradient-white: linear-gradient(45deg, white, darken(white, 10%));
