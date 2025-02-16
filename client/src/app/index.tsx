@@ -1,8 +1,12 @@
-import { Fragment } from "react/jsx-runtime";
-import "./index.scss";
+import { FC, JSX } from 'react'
 
-function Application() {
-  return <Fragment></Fragment>;
-}
+import { WithProviders } from './providers'
+import './index.scss'
 
-export default Application;
+const Application: FC = (): JSX.Element => (
+  <div className="app">
+    <WithProviders />
+  </div>
+)
+
+export default Application

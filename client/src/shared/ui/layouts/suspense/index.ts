@@ -1,0 +1,1 @@
+export { SuspenseLayout } from './ui'
