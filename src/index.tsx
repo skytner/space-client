@@ -1,7 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 
-import Application from "./app";
+import Application from "./core";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
