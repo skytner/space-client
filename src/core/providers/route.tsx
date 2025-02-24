@@ -1,8 +1,8 @@
 import { FC, JSX, lazy } from "react";
 import { Navigate, RouteObject, useRoutes } from "react-router-dom";
 
-import { paths } from "@/shared/router";
-import { BaseLayout, SuspenseLayout } from "@/shared/ui/layouts";
+import { paths } from "@/common/router";
+import { BaseLayout, MapLayout, SuspenseLayout } from "@/common/ui/layouts";
 
 const Main = lazy(() => import("@/entities/main/page"));
 
@@ -13,7 +13,15 @@ export const routes = (): RouteObject[] => [
   },
   {
     path: paths.core,
-    element: <BaseLayout main={<Main/>} heading={<></>} />,
+    element: (
+      <MapLayout
+        map={<div>this will map</div>}
+        locationTitle={{ locationName: "Space" }}
+        breadcrumbs={[]}
+        aside={<></>}
+        objectPanel={<></>}
+      />
+    ),
   },
 ];
 

@@ -1,0 +1,3 @@
+interface BurgerProps {
+  isOpened: boolean;
+}

@@ -12,6 +12,10 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.4.5",
+    "@mui/material": "^6.4.5",
     "@visx/group": "^3.12.0",
     "@visx/mock-data": "^3.12.0",
     "@visx/scale": "^3.12.0",
