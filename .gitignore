@@ -1,2 +1,6 @@
 node_modules
 .vscode
+dist
+tsconfig.node.tsbuildinfo
+tsconfig.tsbuildinfo
+vite.config.js
